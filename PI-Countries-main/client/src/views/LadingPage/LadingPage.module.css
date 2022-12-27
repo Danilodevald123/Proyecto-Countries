@@ -1,0 +1,41 @@
+
+
+body{
+    background: url("https://cdn.discordapp.com/attachments/1041724161858469999/1055859202754621551/photo-1589519160732-57fc498494f8.png");
+  }
+
+
+.fondo{
+    background-color:white;
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    height:max-content;
+    border: #596e79;
+    
+}
+
+
+.text{
+    color: #f0ece2;
+    width: 50%;
+    margin-top: 15%;
+
+}
+.titulo{
+    font-size: 50px;
+}
+
+.button {
+    background-color:#009cb9;
+    color:  #f0ece2;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
