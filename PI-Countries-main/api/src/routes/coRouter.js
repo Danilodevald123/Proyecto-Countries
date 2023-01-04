@@ -6,7 +6,7 @@ const {getCountry,findCountry,} = require("../controllers/countryController");
 
 
 
-coRouter.get("/", /* validateName,  */getCountry)
+coRouter.get("/",getCountry)
 
 coRouter.get("/:id", findCountry);
 

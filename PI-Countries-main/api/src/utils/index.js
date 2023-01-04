@@ -29,7 +29,9 @@ const getAllCountries =  async () => {
     const listadoCountry = dbCountries.map(coun => ({
       name:coun.name,
       image:coun.image,
-      continent: coun.continent
+      continent: coun.continent,
+      population: coun.population,
+      id: coun.id
     }))
     return [...listadoCountry]
 }

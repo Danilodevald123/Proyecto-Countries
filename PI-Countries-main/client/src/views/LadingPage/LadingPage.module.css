@@ -1,7 +1,9 @@
 
 
 body{
-    background: url("https://cdn.discordapp.com/attachments/1041724161858469999/1055859202754621551/photo-1589519160732-57fc498494f8.png");
+    background: url("../../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 
@@ -18,9 +20,15 @@ body{
 
 .text{
     color: #f0ece2;
-    width: 50%;
-    margin-top: 15%;
-
+    width: 28%;
+    margin-top: 17%;
+    background-color: rgba(0, 0, 0, 0.439);
+    margin-left: 34.5%;
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.071);
 }
 .titulo{
     font-size: 50px;
